@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodata Akiraa</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+  <style>
+    .navbar-brand img {
+      border-radius: 50%;
+    }
+
+    .card {
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card .card-title {
+      font-size: 1rem;
+    }
+
+    .card .card-text {
+      font-size: 0.9rem;
+    }
+
+    /* Ukuran lebih besar di dalam modal */
+    .modal-body h5 {
+      font-size: 1.6rem;
+      font-weight: bold;
+    }
+
+    .modal-body p {
+      font-size: 1.3rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html">
+        <img src="profil.jpg" alt="logo" width="35" height="35" class="d-inline-block me-2">
+        <strong>AkiraaKitta</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link active" href="biodata.html">Biodata</a></li>
+          <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
+          <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container my-5">
+    <h1 class="text-center mb-4 text-primary">Jurusan Unggulan</h1>
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+<!-- UNTUK CARD PERTAMA -->
+<div class="card" role="button" data-bs-toggle="modal" data-bs-target="#cardModal1">
+          <div class="card-body text-center">
+            <h5 class="card-title">DKV</h5>
+            <p class="card-text">Kelas: X/XI</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Modal untuk memperbesar isi card -->
+<!-- Modal 3 -->
+<div class="modal fade" id="cardModal3" tabindex="-1" aria-labelledby="cardModal3Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body position-relative text-center">
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+        <img src="tkj.jpg" alt="Foto Siswa" class="img-fluid mb-3 rounded">
+        <h5>TKJ</h5>
+        <p>Kelas: X/XI</p>
+        <p>Deskripsi Jurusan Teknik Komputer dan Jaringan (TKJ)
+
+Teknik Komputer dan Jaringan (TKJ) adalah jurusan yang mempelajari tentang cara merakit komputer, menginstal sistem operasi dan software, serta membangun dan mengelola jaringan komputer, baik jaringan lokal (LAN) maupun jaringan berbasis internet. Siswa TKJ akan dibekali dengan kemampuan dalam bidang troubleshooting perangkat keras dan jaringan, administrasi server, serta keamanan jaringan.
+
+Lulusan TKJ diharapkan mampu bekerja sebagai teknisi komputer dan jaringan, administrator jaringan, teknisi server, hingga wirausahawan di bidang teknologi informasi. Selain itu, siswa juga dibimbing untuk siap menghadapi sertifikasi internasional di bidang jaringan dan IT.</p>
+      </div>
+    </div>
+  </div>
+</div>
+  <section class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+<!-- UNTUK CARD KEDUA -->
+<div class="card" role="button" data-bs-toggle="modal" data-bs-target="#cardModal2">
+          <div class="card-body text-center">
+            <h5 class="card-title">Busana</h5>
+            <p class="card-text">Kelas: X/XI</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Modal untuk memperbesar isi card --><!-- Modal 1 -->
+<div class="modal fade" id="cardModal1" tabindex="-1" aria-labelledby="cardModal1Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body position-relative text-center">
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+        <img src="dkv.jpg" alt="Foto Siswa" class="img-fluid mb-3 rounded">
+        <h5>DKV</h5>
+        <p>Kelas: X/XI</p>
+        <p>Deskripsi Jurusan Desain Komunikasi Visual (DKV)
+
+Desain Komunikasi Visual (DKV) adalah jurusan yang mempelajari cara menyampaikan pesan melalui media visual secara kreatif dan efektif. Siswa DKV dibekali keterampilan dalam menggambar, desain grafis, fotografi, tipografi, ilustrasi, animasi, dan penggunaan software desain profesional.
+
+Tujuan utama dari DKV adalah menciptakan karya visual yang mampu menyampaikan informasi, membangun identitas, serta memengaruhi persepsi dan emosi audiens. Lulusan DKV dapat berkarier sebagai desainer grafis, ilustrator, animator, desainer UI/UX, hingga content creator di berbagai bidang industri kreatif.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <section class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+<!-- UNTUK CARD KETIGA -->
+<div class="card" role="button" data-bs-toggle="modal" data-bs-target="#cardModal3">
+          <div class="card-body text-center">
+            <h5 class="card-title">TKJ</h5>
+            <p class="card-text">Kelas: X/XI</p>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Modal untuk memperbesar isi card --><!-- Modal 2 -->
+<div class="modal fade" id="cardModal2" tabindex="-1" aria-labelledby="cardModal2Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body position-relative text-center">
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+        <img src="busana.jpg" alt="Foto Siswa" class="img-fluid mb-3 rounded">
+        <h5>Busana</h5>
+        <p>Kelas: X/XI</p>
+        <p>Deskripsi Jurusan Tata Busana
+
+Tata Busana adalah jurusan yang mempelajari seni dan teknik merancang, membuat, dan memroduksi pakaian serta aksesorinya. Siswa jurusan ini dibekali keterampilan mulai dari menggambar desain, memilih bahan, menjahit, hingga menghasilkan produk busana yang berkualitas dan mengikuti tren mode.
+
+Selain itu, siswa juga mempelajari tentang sejarah mode, teknik pola, manajemen produksi, dan pemasaran busana. Lulusan Tata Busana dapat berkarier sebagai desainer fashion, penjahit profesional, stylist, fashion illustrator, hingga wirausahawan di bidang industri mode.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <section class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-md-4">
+<!-- UNTUK CARD KETIGA -->
+<div class="card" role="button" data-bs-toggle="modal" data-bs-target="#cardModal4">
+          <div class="card-body text-center">
+            <h5 class="card-title">AKUNTANSI</h5>
+            <p class="card-text">Kelas: X/XI</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  <!-- Modal untuk memperbesar isi card --><!-- Modal 2 -->
+<div class="modal fade" id="cardModal4" tabindex="-1" aria-labelledby="cardModal4Label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body position-relative text-center">
+        <button type="button" class="btn-close position-absolute top-0 end-0 m-3" data-bs-dismiss="modal" aria-label="Close"></button>
+        <img src="akuntansi.jpg" alt="Foto Siswa" class="img-fluid mb-3 rounded">
+        <h5>AKUNTANSI</h5>
+        <p>Kelas: X/XI</p>
+        <p>Deskripsi Jurusan Akuntansi
+
+Akuntansi adalah jurusan yang mempelajari pencatatan, pengklasifikasian, pengolahan, dan penyajian data keuangan suatu entitas secara sistematis. Siswa jurusan Akuntansi dilatih untuk memahami siklus akuntansi, menyusun laporan keuangan, mengelola perpajakan, serta menggunakan software akuntansi.
+
+Jurusan ini juga membekali siswa dengan pemahaman dasar tentang manajemen keuangan, audit, dan pengambilan keputusan berbasis data. Lulusan Akuntansi memiliki peluang kerja sebagai staf akuntansi, auditor, analis keuangan, atau membuka usaha sendiri di bidang jasa keuangan dan pembukuan.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <footer class="bg-primary text-white text-center py-3 mt-5">Akiraxx - 2025</footer>
+
+</body>
+</html>
